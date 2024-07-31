@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fastapi:
+    build:
+      context: .
+    volumes:
+      - .:/app
+    ports:
+      - "8003:8003"
+    environment:
+      - PYTHONUNBUFFERED=1

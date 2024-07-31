@@ -1,0 +1,25 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+env-*/
+
+# Ignore environment files
+.env
+
+# Ignore the data directory if it is being used as a volume
+data/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Dockerfile and docker-compose files (optional)
+Dockerfile
+docker-compose.yml
+
+# Ignore any other unwanted files or directories
+.git
+.gitignore
+README.md
